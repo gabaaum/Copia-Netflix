@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    position: absolute;
+    z-index: 100;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    
+    top: 28px;
+   left: 20px;
+}
+
+.header-btn {
+    display: inline-block;
+    background: #e50914;
+    
+    align-self: flex start;
+    
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+    
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.cont {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 785px;
+    background: url("../img/bg.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+    
+}   
+
+.main-child {
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+
+.main h1 {
+    font-size: 64px;
+    max-width: 510px;
+    text-align: center;
+}
+
+.main span {
+    font-size: 35px;
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.form-cta input {
+    padding: 30px 10px;
+    font-size: 19px;
+}
+
+.form-cta button {
+    background: #e50914;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 30px;    
+
+}
+
+.main p {
+    font-size: 19px;
+}
+.gradient {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+        
+        
+
+        
+    );
+
+
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.sec {
+    background: #000;
+    padding: 4rem 0;
+    border-top: 8px solid #222;
+}
+
+.sec h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+    padding-top: 50px;
+}
+
+.sec p{
+    font-size: 26px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+.img-tv{
+position: relative;
+
+
+}
+
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+
+.video-tv{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+}
+
+.img-device{
+    position: relative;
+    
+    
+    }
+
+
+
+.video-device{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+}   
+
+
+
+    
+    
+
+
+
+
+
+
+  
+
